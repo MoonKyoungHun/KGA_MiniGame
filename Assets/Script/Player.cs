@@ -41,7 +41,7 @@ public class Player : MonoBehaviour
         transform.Translate(Vector2.right * moveSpeed * Time.deltaTime);           // 앞으로 가는 힘 주기
     }
 
-        private void AnimatorPlay()
+    private void AnimatorPlay()
     {
         int checkAniHash;                             // 애니메이션 담아두기
         if (rigid.velocity.y > 0.01f)
